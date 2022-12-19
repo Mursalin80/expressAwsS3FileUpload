@@ -2,13 +2,14 @@
 
 Nodejs express project to upload images to aws S3 service
 
+Install required packages
+
 ```bash
-// Install required packages
 npm install or npm i
 
 ```
 
-add .env file in root directory of project and add following\
+add .env file in root directory of project and add following
 
 ```.env
 //  get your parameters from AWS
@@ -25,3 +26,5 @@ start the app
 ```bash
 npm start
 ```
+
+use postman to send post request to http://localhost:5000/image
