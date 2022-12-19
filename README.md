@@ -9,10 +9,11 @@ npm install or npm i
 
 ```
 
-add .env file in root directory of project and add following
+Add .env file in root directory of project.
 
-```.env
-//  get your parameters from AWS
+Get your parameters from AWS and add in .env file as shown in following code
+
+```
 AWS_ACCESS_KEY = ''
 AWS_SECRET_KEY = ''
 AWS_REGION = ''
