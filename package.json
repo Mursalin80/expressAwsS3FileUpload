@@ -1,0 +1,32 @@
+{
+  "name": "file_upload_aws_s3",
+  "version": "1.0.0",
+  "description": "Nodejs express project for upload image to aws s3 service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mursalin80/expressAwsS3FileUpload.git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "aws",
+    "s3"
+  ],
+  "author": "mursalin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mursalin80/expressAwsS3FileUpload/issues"
+  },
+  "homepage": "https://github.com/Mursalin80/expressAwsS3FileUpload#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1277.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0"
+  }
+}
